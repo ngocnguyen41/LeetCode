@@ -3,7 +3,7 @@ class Solution:
         nums.sort()
         result = set()
 
-        for i in range (len(nums)):           
+        for i in range (len(nums) - 2):           
             left = i + 1
             right = len(nums) - 1
 
